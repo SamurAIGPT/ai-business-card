@@ -6,7 +6,7 @@
 
 **GitHub Repository:** [github.com/SamurAIGPT/ai-business-card](https://github.com/SamurAIGPT/ai-business-card)  
 
-**Live Demo Preview:** [ai-business-card-sites.easysite.ai](https://ai-business-card-sites.easysite.ai/)
+**Live Demo Preview:** [ai-business-card-ten.vercel.app](https://ai-business-card-ten.vercel.app/)
 
 ---
 
@@ -21,6 +21,8 @@ CardAI Creator is a highly optimized SaaS application designed to help professio
 - **7 Premium Pre-designed Styles** — Neumorphism, Cyberpunk Glitch, Holographic Glassmorphism, Interactive 3D Tilt, Swiss International Style, Classic Minimal, and Brutalist Marquee templates load instantly offline.
 - **Automatic QR Codes** — Standard QR code generator overlay points directly to the card's public URL for quick mobile scanning.
 - **Split Save Protections** — When editing an existing card, users can either **"Save Changes"** (update current) or **"Save as New Copy"** (clone to new ID), preventing accidental overwrites.
+
+![CardAI Dashboard](https://cdn.muapi.ai/data/2/191243157668/Screenshot_2026-05-25_141220.png)
 
 ---
 
