@@ -1,10 +1,13 @@
-# 📇 CardAI Creator — Premium AI Digital Business Card Generator & Visitor Chatbot SaaS
+# 📇 CardAI Creator — Open-Source AI Digital Business Card Generator with Embedded Visitor Chatbot
 
-> **A fully production-ready SaaS for designing, sharing, and chatting with digital business cards.** Built with Next.js (App Router), this application is a self-contained SaaS boilerplate complete with Google Authentication, database-backed card persistence, 7 premium pre-designed templates, real-time live iframe previews, Stripe credit purchases, a dedicated saved cards manager, and an interactive visitor-facing AI Chatbot Assistant clone.
+> **Design, share, and chat through interactive digital business cards in seconds.** A production-ready, self-hostable Next.js SaaS boilerplate with 7 premium templates, AI-styled custom layouts, QR sharing, and a visitor-facing AI chatbot that answers questions about you on your behalf. A free open-source alternative to Popl, HiHello, Linq, and Mobilo — powered by the MuAPI AI engine.
+
+**Tech stack:** Next.js 14 (App Router) · Prisma · PostgreSQL · NextAuth (Google OAuth) · Stripe · Tailwind CSS · MuAPI · OpenAI (chatbot)
+**Use cases:** Networking events · Conference badges · Sales rep cards · Real estate agent cards · Freelancer portfolios · Creator landing pages · Lead capture pages · QR vCard sharing · Personal branding
 
 ## 🌐 Project Details
 
-**GitHub Repository:** [github.com/SamurAIGPT/ai-business-card](https://github.com/SamurAIGPT/ai-business-card)  
+**GitHub Repository:** [github.com/SamurAIGPT/ai-business-card](https://github.com/SamurAIGPT/ai-business-card)
 
 **Live Demo Preview:** [ai-business-card-ten.vercel.app](https://ai-business-card-ten.vercel.app/)
 
