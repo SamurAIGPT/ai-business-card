@@ -48,8 +48,7 @@ CardAI Creator is a highly optimized SaaS application designed to help professio
 - Visitors viewing the public `/card/[hash]` page can open a floating chat drawer.
 - Answers questions about your experience, contact info, and website by referencing profile details.
 - Runs a synchronous backend polling script so that visitors get instant, snappy answers.
-
-### 📂 My Cards Dashboard (`/my-cards`)
+### 📂 Dedicated Gallery Page (`/gallery`)
 - A dedicated dashboard where users can see all their saved cards in a clean, visual grid of previews.
 - Quick actions: **Edit** (opens in workspace), **View** (opens public page), **Delete** (with confirmation), **Copy Link**, and **Show/Download QR Code**.
 

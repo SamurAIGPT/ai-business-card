@@ -69,10 +69,6 @@
   --primary-btn-text: #000000;
 }
 
-.bg-primary {
-  color: var(--primary-btn-text, #ffffff) !important;
-}
-
 @layer base {
   html, body {
     background-color: var(--color-bg-page);

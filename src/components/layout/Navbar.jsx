@@ -18,7 +18,7 @@ export function Navbar() {
 
   const links = [...navLinks];
   if (session?.user) {
-    links.push({ name: "My Cards", href: "/my-cards" });
+    links.push({ name: "Gallery", href: "/gallery" });
   }
 
   return (
