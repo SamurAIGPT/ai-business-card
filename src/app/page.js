@@ -668,17 +668,17 @@ export default function Home() {
       <div className="lg:hidden flex-1 overflow-hidden flex flex-col min-h-0">
         {mobileTab === "edit" && (
           <div className="flex-1 overflow-hidden flex flex-col bg-bg-card min-h-0">
-            <FormPanel />
+            {FormPanel()}
           </div>
         )}
         {mobileTab === "preview" && (
           <div className="flex-1 overflow-hidden flex flex-col min-h-0">
-            <PreviewPanel />
+            {PreviewPanel()}
           </div>
         )}
         {mobileTab === "share" && (
           <div className="flex-1 overflow-y-auto bg-bg-card min-h-0 scrollbar-subtle">
-            <SharePanel />
+            {SharePanel()}
           </div>
         )}
       </div>
@@ -688,17 +688,17 @@ export default function Home() {
 
         {/* Left — Form */}
         <aside className="w-72 xl:w-80 flex-shrink-0 bg-bg-card border-r border-divider/50 flex flex-col overflow-hidden">
-          <FormPanel />
+          {FormPanel()}
         </aside>
 
         {/* Center — Preview */}
         <main className="flex-1 flex flex-col overflow-hidden min-w-0">
-          <PreviewPanel />
+          {PreviewPanel()}
         </main>
 
         {/* Right — Share (always visible on lg+) */}
         <aside className="w-60 xl:w-64 flex-shrink-0 bg-bg-card border-l border-divider/50 overflow-hidden flex flex-col">
-          <SharePanel />
+          {SharePanel()}
         </aside>
       </div>
 
@@ -707,7 +707,7 @@ export default function Home() {
         <div className="lg:hidden fixed inset-0 z-50 flex justify-end">
           <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={() => setShareOpen(false)} />
           <div className="relative w-72 max-w-full bg-bg-card border-l border-divider shadow-2xl overflow-hidden flex flex-col">
-            <SharePanel />
+            {SharePanel()}
           </div>
         </div>
       )}
