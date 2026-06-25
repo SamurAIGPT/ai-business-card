@@ -6,11 +6,13 @@ import Navbar from "../components/Navbar";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const outfit = Outfit({
   variable: "--font-outfit",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata = {
@@ -25,7 +27,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" className="h-dvh w-full" data-theme={theme}>
-      <body className={`${inter.variable} ${outfit.variable} h-full w-full flex flex-col antialiased bg-bg-page text-primary-text font-sans`}>
+      <body className={`${inter.variable} ${inter.className} ${outfit.variable} h-full w-full flex flex-col antialiased bg-bg-page text-primary-text font-sans`}>
         <Providers>
           <Navbar />
           <div className="flex-1 flex flex-col overflow-hidden">
