@@ -13,9 +13,7 @@
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
 
-<p align="center">
-  <video src="demo.mp4" width="100%" controls></video>
-</p>
+![CardAI Demo Video](demo.mp4)
 
 ## 🌐 Project Details
 
