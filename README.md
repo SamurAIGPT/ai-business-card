@@ -13,7 +13,9 @@
 
 > 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
 
-https://cdn.muapi.ai/github-videos/ai-business-card.mp4
+<p align="center">
+  <video src="demo.mp4" width="100%" controls></video>
+</p>
 
 ## 🌐 Project Details
 
